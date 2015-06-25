@@ -21,7 +21,30 @@
 
 body {
 	background-image: url('/images/happybusiness_ed.jpg');
-	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.mainbody {
+	float:left;
+	height: 50em:;
+	width: 55em;
+	background-color: rgba(0,0,0,.3);
+	margin-top: 10em;
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+
+.mainbody h1, p {
+	color: white;
+
+}
+
+.footer {
+	height: 6em;
+	background-color: red;
+	clear:both;
+	margin-top: 1em;
 
 }
 
