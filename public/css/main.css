@@ -1,5 +1,5 @@
 .header {
-	height: 8em;
+	height: 7em;
 	background-color: rgba(0,0,0,.3);
 	width: 70em;
 	float: left;
@@ -12,7 +12,7 @@
 }
 
 .navigation {
-	height: 8em;
+	height: 7em;
 	background-color: black;
 	opacity: .3;
 	float: right;
@@ -22,29 +22,34 @@
 body {
 	background-image: url('/images/happybusiness_ed.jpg');
 	background-repeat: no-repeat;
+	height: 1080px;
+	position: relative;
 
 }
 
 .mainbody {
-	float:left;
-	height: 50em:;
-	width: 55em;
+	float: left;
+	height: 35em:;
+	width: 40em;
 	background-color: rgba(0,0,0,.3);
 	margin-top: 10em;
 	margin-left: 2em;
 	margin-bottom: 1em;
 }
 
-.mainbody h1, p {
+.mainbody h1, .mainbody p {
 	color: white;
 
 }
 
 .footer {
-	height: 6em;
-	background-color: red;
+	height: 4em;
+/*	background-color: red;*/
 	clear:both;
 	margin-top: 1em;
-
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: black;
 }
 
