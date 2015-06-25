@@ -1,9 +1,10 @@
 .header {
 	height: 7em;
 	background-color: rgba(0,0,0,.3);
-	width: 70em;
+	width: 100%
 	float: left;
 	text-align: center;
+	margin-left: 1em;
 
 }
 .header h1 {
@@ -11,12 +12,22 @@
 	color: white;
 }
 
-.navigation {
+#navigation {
 	height: 7em;
-	background-color: black;
-	opacity: .3;
 	float: right;
 	width: 5em;
+	padding-top: 3em;
+	margin: -5em 6em 0 0;
+}
+#navigation button {
+	background: rgba(0,0,0,.00);
+	border-style: none;
+	color: white;
+	width: 6em;
+	font-size: 20px;
+}
+.dropdown-menu {
+
 }
 
 body {
