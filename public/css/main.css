@@ -64,3 +64,29 @@ body {
 	color: black;
 }
 
+#sidebar {
+	background-color: rgba(0,0,0,.3);
+	width: 20em;
+	height: 600px;
+	margin: 6em 1em 0 0;
+	position: absolute;
+	right: 0;
+	transition-duration: 1s;
+	color: black;
+}
+#sidebar input, textarea {
+	display: block;
+	margin: 2em 0 0 1em;
+}
+#sidebar input[type="text"]{
+	width: 50px;
+}
+#sidebar label {
+	margin: 2em 0 0 1em;
+	color: white;
+}
+
+
+
+
+
