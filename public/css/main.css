@@ -1,8 +1,22 @@
 .header {
-	height: 200px;
+	height: 8em;
+	background-color: rgba(0,0,0,.3);
+	width: 70em;
+	float: left;
+	text-align: center;
+
+}
+.header h1 {
+	font-size: 60px;
+	color: white;
+}
+
+.navigation {
+	height: 8em;
 	background-color: black;
 	opacity: .3;
-
+	float: right;
+	width: 5em;
 }
 
 body {
