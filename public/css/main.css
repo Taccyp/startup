@@ -1,6 +1,6 @@
 .header {
 	height: 7em;
-	background-color: #171d26;
+	background-color: rgba(0,0,0,.3);
 	width: 100%;
 	/*float: left;*/
 	text-align: center;
@@ -45,6 +45,7 @@ a.dropdown-toggle { outline: none}
 
 body {
 	background-image: url('/images/businessgroup_ed.jpg');
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -82,19 +83,19 @@ body {
 	background-color: #171d26 ;	
 	text-align: center;
 	vertical-align: middle;
-	line-height: 6em;
 } 
 
 .footer p {
 	display: inline-block;
 	margin-right: 60px;
+	margin-top:20px;
 
 }
 
 #contact_form {
 	height: 50em;
 	width: 100%;
-	background-color: #171d26 ;
+	background-color: rgba(0,0,0,.3);
 	margin: 0 auto;
 	margin-top: 3em;
 	padding: 2em;
@@ -145,11 +146,11 @@ body {
 #sidebar:hover {
 	background-color: rgba(0,0,0,.8);
 }
-#sidebar input, textarea {
+#sidebar input, #sidebar textarea {
 	display: block;
 	margin: 1em 0 0 1em;
 }
-#sidebar input[type="text"], input[type="email"], textarea{
+#sidebar input[type="text"], #sidebar input[type="email"], #sidebar textarea{
 	width: 50px;
 }
 #sidebar label {
