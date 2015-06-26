@@ -1,12 +1,15 @@
 $(document).ready(function(){
 
 $("#sidebar").hover(function(){
-  console.log("hover detected")
-  $(this).animate({width: "60em"}, 800, 
-    function(){$("input:text").animate({width: "20em"}, 800)}
-    );}, $(this).css({backgroundColor: "white"}),
+  $(this).animate({width: "60em", height: "60em"}, 300, 
+    function(){$("input:text").animate({width: "20em"}, 300, 
+      function(){$("input[type=email]").animate({width: "20em"}, 300,
+      function(){$("textarea").animate({height: "5em", width: "40em"})})})}
+    );},
    function(){
-    $(this).animate({width: "20em"}, 800, function(){$("input:text").animate({width: "50px"}, 800)});
+    $(this).animate({width: "10em", height: "720px"}, 200, function(){$("input:text").animate({width: "50px"}, 200,
+      function(){$("input[type=email]").animate({width: "50px"}, 200,
+        function(){$("textarea").animate({height: "26px", width: "50px"})})})});
   }
 )
 
