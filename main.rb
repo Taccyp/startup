@@ -29,16 +29,16 @@ shortly. They will then work with you to come up with a business idea you'll lov
 thingy, as we value the trust you are placing in us.
 Sincerely,
     John Smith
-    Founder of cool business thingy
+    Founder of UpStarted.com
 CONTACT
 
     m = Mandrill::API.new
     message = {
     :subject=> "Congratulations for you first step to Start Up success!",
-    :from_name=> "cool biz thingy",
+    :from_name=> "UpStarted.com",
     :text=>first_contact,
     :to=>[{:email=> params[:email], :name=> params[:first_name]+ " " + params[:last_name]}],
-    :from_email=>"johnsmith@gmail.com"
+    :from_email=>"johnsmith@UpStarted.com"
     }
     puts params[:email]
     sending = m.messages.send message
