@@ -204,6 +204,21 @@ body {
 }
 
 #mainbody_phil {
-	width:60%;
+	width: 66em;
+	height: 60em;
+	background-color: rgba(0,0,0,.3);
+	margin: 0 auto;
+
+}
+
+#mainbody_phil h1 {
+	text-align: center;
+}
+
+#mainbody_phil img {
+	height: 25em;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
