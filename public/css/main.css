@@ -1,15 +1,20 @@
 .header {
 	height: 7em;
-	background-color: rgba(0,0,0,.3);
-	width: 100%
-	float: left;
+	background-color: rgba(49,59,89,.2);
+	width: 100%;
+	/*float: left;*/
 	text-align: center;
-	margin-left: 1em;
+
 
 }
 .header h1 {
 	font-size: 60px;
 	color: white;
+	font-family: 'Bitter', serif;
+	vertical-align: middle;
+	line-height: 3em;
+	
+
 }
 
 #navigation {
@@ -31,10 +36,13 @@
 }
 
 body {
-	background-image: url('/images/happybusiness_ed.jpg');
+	background-image: url('/images/skylineblue.png');
 	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 	height: 1080px;
 	position: relative;
+
 
 }
 
@@ -42,7 +50,7 @@ body {
 	float: left;
 	height: 35em:;
 	width: 40em;
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.1);
 	margin-top: 10em;
 	margin-left: 2em;
 	margin-bottom: 1em;
@@ -54,13 +62,41 @@ body {
 }
 
 .footer {
-	height: 4em;
-/*	background-color: red;*/
+	height: 6em;
 	clear:both;
 	margin-top: 1em;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	color: black;
+	background-color: rgba(49,59,89,.2);	
+} 
+
+.footer ul {
+	text-align: center;
 }
+.footer li {
+	display:inline-block;
+
+}
+.footer p {
+	text-align: center;
+}
+
+.contact-form {
+	height: 50em;
+	width: 100%;
+	background-color: rgba(49,59,89,.2);
+	margin: 0 auto;
+	margin-top: 3em;
+	padding: 2em;
+	font-family: 'Bitter', sans-serif;
+}
+.contact-form h1, p  {
+	color:white;
+}
+.contact-form h1 {
+	text-align: center;
+}
+
+
 
