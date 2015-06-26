@@ -43,4 +43,5 @@ CONTACT
     puts params[:email]
     sending = m.messages.send message
     puts sending
+    erb :submission
 end

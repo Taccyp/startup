@@ -4,12 +4,17 @@
 	width: 100%
 	float: left;
 	text-align: center;
-	margin-left: 1em;
+	position: absolute
+	left:0;
+	right:0;
+	top: 0;
+	border-bottom: solid;
 
 }
 .header h1 {
 	font-size: 60px;
 	color: white;
+	margin-top: 0;
 }
 
 #navigation {
@@ -31,7 +36,7 @@
 }
 
 body {
-	background-image: url('/images/happybusiness_ed.jpg');
+	background-image: url('/images/businessgroup_ed.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -45,7 +50,7 @@ body {
 	height: 35em:;
 	width: 40em;
 	background-color: rgba(0,0,0,.3);
-	margin-top: 10em;
+	margin-top: 8em;
 	margin-left: 8em;
 	margin-bottom: 1em;
 	padding: 1em;
@@ -97,7 +102,39 @@ body {
 	color: white;
 }
 
+.congrats {
+	text-align: center;
+	color: white;
+	font-size: 60px;
+}
 
-
-
+.testimonial_main {
+	margin: 5em auto 0 auto;
+	background-color: rgba(0,0,0,.3);
+	width: 66em;
+	height: 55em;
+	color: white;
+}
+.testimonial_main h1{
+	text-align: center;
+	font-size: 40px;
+	margin: 1em;
+}
+.testimonial_main h2{
+	float: left;
+	display: inline;
+	margin-right: 1em;
+	font-size: 30px;
+}
+.testimonial_main p{
+	float: left;
+	width: 30em;
+	display: inline;
+	font-size: 18px;
+	margin-right: 1em;
+}
+.testimonial_main img{
+	float: left;
+	margin: 1.5em;
+}
 
