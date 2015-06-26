@@ -21,7 +21,7 @@ get '/testimonials' do
   erb :testimonials
 end
 
-post '/contact' do
+post '/contact_submit' do
   puts params.inspect
   @message= params[:message]
   @name = params[:name]
@@ -39,7 +39,6 @@ message = {
 }
   sending = m.messages.send message
   puts sending
-  erb :contact
-  "HELLO"
+  erb :contact_submit
 end
 
