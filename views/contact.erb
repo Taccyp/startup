@@ -3,23 +3,60 @@
 <head> 
 	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="main.js"></script>
-	<meta charset="UTC-8">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="js/contact.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="header">
+	<div class="header">
+		<h1> cool biz thingy</h1>
+	
 
-	</div>
+	
+		 <div class="dropdown" id="navigation">
+		    <button class="navigation" type="button" data-toggle="dropdown">Menu
+		    <span class="glyphicon glyphicon-align-justify"></span></button>
+		    <ul class="dropdown-menu pull-right">
+		      <li><a href="/index">Main</a></li>
+		      <li><a href="/contact">Contact Us</a></li>
+		      <li><a href="/philosophy">Our Philosophy</a></li>
+		      <li><a href="/testimonials">Testimonials</a></li>
+		    </ul>
+	  	</div>
+	  </div>
 	
 	<div class="navigation">
 
 	</div>
-
-<div class="mainbody">
+	<h1 id="acknowledgment"></h1>
+<div id="contact_form">
+	<h1> We'd love to hear from you!</h1>
+	<p> Here at Start-Up, we love to hear from our potential clients. You can let us know what your professional ambitions are, or simply ask questions. We reply to every email we recieve, so don't worry about not being heard!</p>
+	<form method="POST"  action="/contact_submit" id="userform">
+	Name:</h4><br>
+	<input type="text" name="name" size="35" id="customer_name">
+	<br>
+	Email:<br>
+	<input type="text" name="email" size="35" id="customer_email">
+	<br>
+	Your Message:<br>
+	<textarea  id="customer_message"name="message" rows="15" cols="125"></textarea>
+	<input type="submit" id="form_submit"></input>
+</form>
 	
 	</div>
 <div class="footer">
+	<footer>
+		<p>Developed by: The start up team</p>
+		<p>Contact us at: support@startup.com</p>
+			<p><a href="http://www.facebook.com"><i id="facebook" class="fa fa-facebook-official"></i></a></p>
+			<p><a href="http://www.twitter.com"><i id="twitter" class="fa fa-twitter-square"></i></a></p>
+		
+	</footer>
 
 	</div>
 
