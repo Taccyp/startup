@@ -66,11 +66,13 @@ body {
 	margin-bottom: 1em;
 	padding: 1em;
 	font-size: 16px;
+	transition-duration: .5s;
 }
-
+.mainbody:hover {
+	background-color: rgba(0,0,0,.7)
+}
 .mainbody h1, .mainbody p {
 	color: white;
-
 }
 
 .footer {
