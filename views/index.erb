@@ -3,7 +3,9 @@
 <head> 
 	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="main.js"></script>
+	<!-- <script src="main.js"></script> -->
+	<script src="js/form.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -11,14 +13,14 @@
 </head>
 <body>
 	<div class="header">
-		<h1> cool biz thingy</h1>
+		<h1>UpStarted.com</h1>
 	
 
 	
 		 <div class="dropdown" id="navigation">
 		    <button class="navigation" type="button" data-toggle="dropdown">Menu
 		    <span class="glyphicon glyphicon-align-justify"></span></button>
-		    <ul class="dropdown-menu pull-right">
+		    <ul class="dropdown-menu pull-center">
 		      <li><a href="/index">Main</a></li>
 		      <li><a href="/contact">Contact Us</a></li>
 		      <li><a href="/philosophy">Our Philosophy</a></li>
@@ -28,14 +30,43 @@
 	  </div>
 	
 	<div class="mainbody">
-		<h1>Sanctus</h1>
+		<h1>Welcome to your new business!</h1>
+		<p>
+			Here at UpStarted.com we are dedicated to helping anyone find the entrepreneurial enterprise that will best meet
+			their goals. Our start up experts will work with you to develop a small business plan perfect for realizing your full potential.
+		</p>
+		<p>
+			Signing up with UpStarted.com is just the first step in a long journey to self-sufficiency. We won't lie to you: starting a small business is a lot of work, and requires focus and dedication. You are in for some long hours and tough months ahead, but the reward of seeing your very own business flourish (not to mention the financial independence) is well worth the effort.
+		</p>
+		<p>
+			UpStarted.com will be right there with, each step of the way. Sign up today!
+		</p>
+		<!-- <h1>Sanctus</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet quam sit amet turpis aliquet tristique. Aliquam porta neque at vulputate efficitur. Sed facilisis elit id arcu commodo iaculis. Donec lacinia luctus libero in accumsan. Donec sit amet auctor neque, ac varius risus. Phasellus volutpat ipsum eget lacus elementum, volutpat posuere purus vehicula. Nunc facilisis purus et nibh posuere, consectetur bibendum justo malesuada. Suspendisse at sem non nisi fringilla condimentum vitae vel augue. Sed sit amet sem nibh. Fusce gravida elit sed erat semper, aliquet bibendum elit blandit. Nulla accumsan auctor pulvinar.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet quam sit amet turpis aliquet tristique. Aliquam porta neque at vulputate efficitur. Sed facilisis elit id arcu commodo iaculis. Donec lacinia luctus libero in accumsan. Donec sit amet auctor neque, ac varius risus. Phasellus volutpat ipsum eget lacus elementum, volutpat posuere purus vehicula. Nunc facilisis purus et nibh posuere, consectetur bibendum justo malesuada. Suspendisse at sem non nisi fringilla condimentum vitae vel augue. Sed sit amet sem nibh. Fusce gravida elit sed erat semper, aliquet bibendum elit blandit. Nulla accumsan auctor pulvinar.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet quam sit amet turpis aliquet tristique. Aliquam porta neque at vulputate efficitur. Sed facilisis elit id arcu commodo iaculis. Donec lacinia luctus libero in accumsan. Donec sit amet auctor neque, ac varius risus. Phasellus volutpat ipsum eget lacus elementum, volutpat posuere purus vehicula. Nunc facilisis purus et nibh posuere, consectetur bibendum justo malesuada. Suspendisse at sem non nisi fringilla condimentum vitae vel augue. Sed sit amet sem nibh. Fusce gravida elit sed erat semper, aliquet bibendum elit blandit. Nulla accumsan auctor pulvinar.</p> -->
 
 	
 	</div>
 	
-	<div class="sidebar">
+	<div id="sidebar">
+		<h1>Sign up!</h1>
+		<form method="POST" action="/submission" id="signup">
+			<label for="first_name">First Name</label>
+			<input type="text" name="first_name">
+			<label for="last_name">Last Name</label>
+			<input type="text" name="last_name">
+			<label for="email">Email</label>
+			<input type="email" name="email">
+			<label for="education">Past Education</label>
+			<textarea type="text" name="education" rows="1"></textarea>
+			<label for="work_history">Work History</label>
+			<textarea type="text" name="work_history" rows="1"></textarea>
+			<label for="interests">Other Interests or Hobbies</label>
+			<textarea type="text" name="interests" rows="1"></textarea>
+			<label for="comment">Anything else you'd like us to know?</label>
+			<textarea type="text" name="comment" rows="1"></textarea>
+			<input type="submit">
+		</form>
 	
 	</div>
 
