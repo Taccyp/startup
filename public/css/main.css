@@ -105,6 +105,10 @@ body {
 	border-radius: 10px;
 
 }
+
+#contact_form:hover {
+	background-color: rgba(0,0,0,.7)
+}
 #contact_form h1, p  {
 	color:white;
 }
@@ -204,15 +208,21 @@ body {
 }
 
 #mainbody_phil {
-	width: 66em;
+	width: 95%;
 	height: 60em;
 	background-color: rgba(0,0,0,.3);
 	margin: 0 auto;
+	margin-top: 30px;
 
+}
+
+#mainbody_phil:hover{
+	background-color: rgba(0,0,0,.7)
 }
 
 #mainbody_phil h1 {
 	text-align: center;
+	color: white;
 }
 
 #mainbody_phil img {
@@ -220,5 +230,29 @@ body {
 	float: left;
 	margin-left: 3px;
 	margin-right: 3px;
+}
+
+.columns {
+	width: 28%;
+	float:left;
+	font-size: 18px;
+	margin-right: 90px;
+	float: left;
+	padding: 10px;
+
+} 
+
+#last {
+	margin-right: 0px;
+}
+
+
+
+#mainbody_phil h1 {
+	font-size: 50px;
+}
+
+#phil_img img {
+	margin-left: 200px;
 }
 
