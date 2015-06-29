@@ -67,6 +67,9 @@ body {
 	padding: 1em;
 	font-size: 16px;
 }
+.mainbody:hover {
+	background-color: rgba(0,0,0,.7)
+}
 
 .mainbody h1, .mainbody p {
 	color: white;
@@ -182,6 +185,9 @@ body {
 	width: 66em;
 	height: 60em;
 	color: white;
+}
+.testimonial_main:hover {
+	background-color: rgba(0,0,0,.7)
 }
 .testimonial_main h1{
 	text-align: center;
