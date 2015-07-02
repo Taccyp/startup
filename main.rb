@@ -1,6 +1,8 @@
 require 'sinatra'
 require 'mandrill'
 
+configure(:development){set :database, "sqlite3:upStart.sqlite3"}
+
 get '/' do
   erb :index
 end
